@@ -1,11 +1,30 @@
+section#mainheader {
+    display: table;
+    grid-template-columns: 60% 1fr 1fr;
+    flex-direction: row;
+    justify-content: right;
+    gap: 50px;
+}
 article#maintitle {
     display: flex;
     flex-direction: column;
     align-items: center;
+    img#imgtitle {
+        width: 40%;
+        height: auto;
+    }
+    img {
+        width: 1450px;
+        height: 420px;
+        object-fit: cover;
+    }
 }
-img#imgtitle {
-    width: 40%;
-    height: auto;
+body {
+    margin: 20px;
+    background-color: #F2F2F2;
+}
+h3 {
+    text-align: center;
 }
 article.card {
     margin: 30px;
@@ -21,6 +40,11 @@ article.card {
         text-align: right;
     }
 }
-form {
-    display: table;
+section#flight {
+    padding-left: 14%;
+    display: flex;
+    flex-direction: row;
+    form {
+        display: table-caption;
+    }
 }
