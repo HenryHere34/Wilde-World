@@ -21,3 +21,6 @@ article.card {
         text-align: right;
     }
 }
+form {
+    display: table;
+}
