@@ -1,8 +1,8 @@
 section#mainheader {
-    display: table;
-    grid-template-columns: 60% 1fr 1fr;
-    flex-direction: row;
-    justify-content: right;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    justify-content: end;
+    justify-items: end;
     gap: 50px;
 }
 article#maintitle {
@@ -27,11 +27,11 @@ h3 {
     text-align: center;
 }
 article.card {
-    margin: 30px;
-    grid-area: 4,1fr / 2,1fr;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-items: stretch;
+    gap: 30px;
     section {
         background-color: #D9D9D9;
     }
@@ -44,6 +44,8 @@ section#flight {
     padding-left: 14%;
     display: flex;
     flex-direction: row;
+    background-color: #D9D9D9;
+    padding: 2%;
     form {
         display: table-caption;
     }
