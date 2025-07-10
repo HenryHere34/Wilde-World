@@ -1,0 +1,19 @@
+body ¨{
+    background-color: #F2F2F2;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 20px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer_title{
+        width: 200px;
+    }
+}
