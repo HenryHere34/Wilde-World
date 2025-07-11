@@ -3,30 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/logpage.css">
+    <link rel="shortcut icon" href="/src/img/D.ico" type="image/x-icon">
     <title>Login · Dream Travellers</title>
 </head>
 <body>
     <header>
+        <section>
+            <h1>Login</h1>
+        </section>
     </header>
     <main>
-        <section>
-            <section>
-                <h2>Welcome Back</h2>
-                <figure>
-                    <img src="">
-                </figure>
-            </section>
-            <section>
-                <form method="dialog" target="_self">
-                    E-mail:
-                    <input name="email" autocomplete="email" type="text" required>
-                    Password:
-                    <input name="password" autocomplete="current-password" type="text" required>
-                    <a href=""><p>Forgot Password?</p></a>
-                    <button type="submit">Login</button>
-                </form>
+        <section id="loginbox">
+            <section id="box"> 
+                <section id="welcomeaside">
+                    <h2>Welcome Back</h2>
+                    <figure>
+                        <img src="/src/img/sun.jfif" alt="sunset">
+                    </figure>
+                    <p>Are you new?</p>
+                    <a href="/src/pages/login.html"><button>Register</button></a>
+                </section>
+                <section class="loginfill">
+                    <form method="dialog" target="_self">
+                        <p>E-mail:</p>
+                        <input name="email" autocomplete="email" type="text" required>
+                        <p>Password:</p>
+                        <input name="password" autocomplete="current-password" type="text" required>
+                        <a href="#"><p>Forgot Password?</p></a>
+                        <button type="submit">Login</button>
+                    </form>
+                </section>
             </section>
         </section>
+        <footer>
+        </footer>
     </main>
 </body>
 </html>

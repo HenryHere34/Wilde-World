@@ -9,15 +9,19 @@
 </head>
 <body>
     <header>
-        <section>
-            <div id="gallery">
-                <img src="src/img/disney_characters_background.jpg" alt="">
-                <figcaption>Gallery</figcaption>
-            </div>
-            <div id="login">
-                <img src="" alt="">
-                <figcaption>Login</figcaption>
-            </div>
+        <section id="indexheader">
+            <figure id="gallery">
+                <a href="src/pages/trip_gallery.html">
+                    <img src="src/img/disney_characters_background.jpg" alt="disney gallery">
+                    <figcaption>Gallery</figcaption>
+                </a>
+            </figure>
+            <figure id="login">
+                <a href="src/pages/login.html">
+                    <img src="src/img/account-login-img.svg" alt="Login">
+                    <figcaption>Login</figcaption>
+                </a>
+            </figure>
         </section>
     </header>
     <main>
@@ -29,55 +33,83 @@
         <article>
             <h3>Book now!</h3>
             <section id="flight">
-                <form method="get" >
+                <form method="get">
                     <label for="destiny">Destiny</label>
                     <input type="text" required>
-                    <label for="date" >Date</label>
-                    <input type="text" required>
+                    <label for="date">Date</label>
+                    <input type="date" required>
                     <label for="passengers">Passengers</label>
-                    <input type="text" required>
+                    <input type="number" required>
                     <button>Search</button>
                 </form>
             </section>
-            <h2>Your journey begins in your imagination!</h2>
+            <h2 id="subtitle">Your journey begins in your imagination!</h2>
             <h1>Offers</h1>
-            <img src="" alt="" id="prcnt">
+            <figure>
+                <img src="" alt="" id="prcnt">
+            </figure>
         <article class="card">
-            <section>
-                <img src="" alt="">
-                <h2>LUCA</h2>
-                <p>A journey to the world of sea monsters</p>
-                <p class="price">850$</p>
+            <section class="elem-card">
+                <section>
+                    <img src="src/img/luca_presentation.png" alt="Luca">
+                </section>
+                <section>
+                    <a href="src/pages/luca-page.html">
+                        <h2>LUCA</h2>
+                        <p>A journey to the world of sea monsters</p>
+                        <p class="price">850$</p>
+                    </a>
+                </section>
             </section>
-            <section>
-                <img src="" alt="">
-                <h2>ALADDIN</h2>
-                <p>A journey to the genius desert</p>
-                <p class="price">900$</p>
+            <section class="elem-card">
+                <section>
+                    <img src="src/img/aladdin.jpg" alt="Aladdin">
+                </section>
+                <section>
+                    <h2>ALADDIN</h2>
+                    <p>A journey to the genius desert</p>
+                    <p class="price">900$</p>
+                </section>
             </section>
-            <section>
-                <img src="" alt="">
-                <h2>HERCULES</h2>
-                <p>A journey to the ancient myth greek</p>
-                <p class="price">750$</p>
+            <section class="elem-card">
+                <section>
+                    <img src="src/img/hercules.jpg" alt="Hercules">
+                </section>
+                <section>
+                    <h2>HERCULES</h2>
+                    <p>A journey to the ancient myth greek</p>
+                    <p class="price">750$</p>
+                </section>
             </section>
-            <section>
-                <img src="" alt="">
-                <h2>LITTLE MERMAID</h2>
-                <p>A journey to the sea of the tritons</p>
-                <p class="price">999$</p>
+            <section class="elem-card">
+                <section>
+                    <img src="src/img/sirenita.jpg" alt="Little mermaid">
+                </section>
+                <section>
+                    <h2>LITTLE MERMAID</h2>
+                    <p>A journey to the sea of the tritons</p>
+                    <p class="price">999$</p>
+                </section>
             </section>
-            <section>
-                <img src="" alt="">
-                <h2>TARZAN</h2>
-                <p>A journey to the wild jungle</p>
-                <p class="price">400$</p>
+            <section class="elem-card">
+                <section>
+                    <img src="src/img/tarzan.jpg" alt="Tarzan">
+                </section>
+                <section>
+                    <h2>TARZAN</h2>
+                    <p>A journey to the wild jungle</p>
+                    <p class="price">400$</p>
+                </section>
             </section>
-            <section>
-                <img src="" alt="">
-                <h2>MICKEY MOUSE</h2>
-                <p>A journey across the world ofMickey Mouse</p>
-                <p class="price">500$</p>
+            <section class="elem-card">
+                <section>
+                    <img src="src/img/mickey.jpg" alt="mickey">
+                </section>
+                <section>
+                    <h2>MICKEY MOUSE</h2>
+                    <p>A journey across the world ofMickey Mouse</p>
+                    <p class="price">500$</p>
+                </section>
             </section>
         </article>
     </main>

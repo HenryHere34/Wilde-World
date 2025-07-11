@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-left: 5%;
+}
+#loginbox {
+    display: block;
+    background-color: #d9d9d9;
+    margin: 5%;
+    padding: 2%;
+    margin-bottom: 0.5%;
+    #box {
+        display: grid;
+        grid-template-columns: 43% 1fr;
+        gap: 2%;
+        #welcomeaside {
+            display: grid;
+            grid-template-rows: 12% 70%;
+            margin: 2%;
+            figure {
+                margin: 0;
+            }
+            img {
+                width: 100%;
+                height: 85%;
+                object-fit: cover;
+                padding: 2%;
+                border-radius: 16px;
+            }
+            p {
+                font-size: 22px;
+            }
+            a {
+                button {
+                    height: 45px;
+                    width: 70%;
+            }
+        }
+    }
+}
+}
+.loginfill {
+    form {
+        display: flex;
+        margin: 5.5%;
+        flex-direction: column;
+        align-items: stretch;
+        p {
+            size: 3em;
+            margin: 0.9%;
+            font-size: 18px;
+        }
+        input, button {
+            width: auto;
+            height: 34px;
+            border-radius: 10px;
+        }
+        button {
+            height: 50px;
+            background-color: #395C9E;
+            color: white;
+            font-size: 18px;
+        }
+    }
+}
