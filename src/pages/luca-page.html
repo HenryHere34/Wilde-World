@@ -9,51 +9,71 @@
 </head>
 <body>
     <header>
-        <figure><img src="/img/header.png" alt="Dream travellers"></figure>
-        <nav>
-            <button>
-                 <figure>
-                    <img class="Gallery" src="/src/img/disney_characters_background.jpg" alt="header photo">
-                 </figure>
-                <a href="#">Gallery</a>
-            </button>
-            <button>
-                <figure>
-                    <img class="login" src="/src/img/account-login-img.svg" alt="header icon">
+        <section id="indexheader">
+            <figure id="header_left_section">
+                <a href="/index.html">
+                <img src="/src/img/header.png" alt="web title" id="title_header">
+                </a>
+            </figure>
+            <section id="header_right_section">
+                <figure id="gallery">
+                    <a href="/src/pages/trip_gallery.html">
+                        <img src="/src/img/disney_characters_background.jpg" alt="disney gallery">
+                        <figcaption>Gallery</figcaption>
+                    </a>
                 </figure>
-                <a href="">Login</a>
-            </button>
-        </nav>
-
-
-
+                <figure id="login">
+                    <a href="/src/pages/login.html">
+                        <img src="/src/img/account-login-img.svg" alt="Login">
+                        <figcaption>Login</figcaption>
+                    </a>
+                </figure>
+            </section>
+        </section>
     </header>
-    <figure><img src="/src/img/luca7.jpg" alt="Luca image 1"></figure>
-    <figure><img src="/src/img/luca5-846-1035v2_hq.jpg" alt="Luca image 2"></figure>
+    <main>
+   <section class="page-image">
+        <figure><img src="/src/img/luca7.jpg" alt="Luca image 1" id="luca-1"></figure>
+        <figure><img src="/src/img/luca5-846-1035v2_hq.jpg" alt="Luca image 2" id="luca-2"></figure>
+    </section> 
     <h1>A journey to the imaginary world of sea monsters</h1>
-    <section>
-        <h2>Travel to the World of Luca</h2>
-        <p>Pack your imagination and dive into the sun-drenched seaside village of Portorosso, the whimsical world from Pixar’s Luca. Tucked along the dreamy Italian Riviera, this animated escape is filled with gelato days, Vespa dreams, and a splash of sea monster magic.
+    <article>
+        <section>
+            <h2>Travel to the World of Luca</h2>
+        <p class="Luca-paraghraph"> your imagination and dive into the sun-drenched seaside village of Portorosso, the whimsical world from Pixar’s Luca. Tucked along the dreamy Italian Riviera, this animated escape is filled with gelato days, Vespa dreams, and a splash of sea monster magic.
         Wander through vibrant markets, race down winding coastal roads, and swim in the sparkling blue sea — just don’t be surprised if your toes turn into fins! Here, friendships are forged over pasta dinners, secrets are shared under the stars, and every day feels like a summer adventure.</p>
     </section>
     <section>
+        <ul>
+            <li><img src="/src/img/bicycle.png" alt="icon 1"></li>
+            <li><img src="/src/img/ice cream (2).png" alt="icon 2"></li>
+            <li><img src="/src/img/waven (2).png" alt="icon 3"></li>
+            <li><img src="/src/img/CUP (1).png" alt="icon 4"></li>
+        </ul>
+    </section>
+    <section id="list">
         <ul>
             <li>Race a Vespa – Zoom through the coastal roads with Alberto and Luca!</li>
             <li>Eat All the Gelato – Try every flavor you can</li>
             <li>Dive into the Sea – Just remember, if you splash in, you might turn into a sea monster!</li>
             <li>Join the Portorosso Cup – Get ready to race in the legendary boat race</li>
         </ul>
-        <ul>
-            <li><img src="/Wilde-World/src/img/bicycle.png" alt="icon 1"></li>
-            <li><img src="/Wilde-World/src/img/ice cream (2).png" alt="icon 2"></li>
-            <li><img src="/Wilde-World/src/img/waven (2).png" alt="icon 3"></li>
-            <li><img src="/Wilde-World/src/img/CUP (1).png" alt="icon 4"></li>
-        </ul>
     </section>
     <section>
-    
+        <div>
+            <ul>
+               <li class="boxtext">Pasenger: 6</li>
+               <li class="boxtext">Duration: 4 days</li>
+            </ul>
+            <h2>850$</h2>
+        </div>
+        <section id="book">
+         <div>BOOK</div>
+        </section>
     </section>
-    <footer>
+    </article>
+     </main>
+     <footer>
         <section id="footer_social">
                 <img id="footer_title" src="/src/img/header_icon.png" alt="Dream Travellers">
                 <div class="footer_line_x"></div>
