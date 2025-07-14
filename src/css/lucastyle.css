@@ -1,1 +1,94 @@
-.login::after
+ @import url('https://fonts.googleapis.com/css2?family=Spectral');
+*{
+    font-family: "Spectral", serif;
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    background-color: #F2F2F2;
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    padding: 10px 0px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #aac8db;
+
+    .footer_icon{
+        width: 35px;
+    }
+    h2{
+        font-weight: bold;
+    }
+
+    h3{
+        font-style: italic;
+    }
+    a{
+        font-style: italic;
+        text-decoration: none;
+        color: black;
+    }
+
+    section{
+        margin: 10px 40px;
+        padding: 10px;
+    }
+    ul{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10px;
+        width: 100%;
+        padding: 0px;
+
+        li{
+            margin: 10px;
+        }
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .footer_line_x{
+        width: 100%;
+        padding: 1px;
+        margin: 10px;
+        background-color: black;
+    }
+
+    .footer_line_y{
+        padding: 110px 1px;
+        margin: 10px;
+        background-color: black;
+    }
+
+    #footer_social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #footer_info{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    #footer_title{
+        width: 250px;
+    }
+
+
+}
