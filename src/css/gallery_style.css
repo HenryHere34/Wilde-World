@@ -1,13 +1,57 @@
  @import url('https://fonts.googleapis.com/css2?family=Spectral');
 *{
+    text-decoration: none;
+    color: black;
     font-family: "Spectral", serif;
     font-style: normal;
     font-weight: normal;
 }
+
 body{
     background-color: #F2F2F2;
     margin: 0px;
     padding: 0px;
+}
+
+header{
+    #indexheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 60px;
+    background-color: #b1dbf6;
+        #login {
+            img {
+                width: 60px;
+            }
+            text-align: center;
+        }
+
+        #gallery {
+        text-align: center;
+            img {
+                box-shadow: -5px 5px 2px rgba(0, 0, 0, 0.212);
+                border-radius: 14px;
+                width: 200px;
+                height: 60px;
+                object-fit: cover;
+            }
+        }
+        #header_right_section{
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        #header_left_section{
+            #title_header{
+                width: 550px;
+                
+            }
+        } 
+    }
+
 }
 footer{
     padding: 10px 0px;
@@ -29,8 +73,6 @@ footer{
     }
     a{
         font-style: italic;
-        text-decoration: none;
-        color: black;
     }
 
     section{
@@ -38,7 +80,6 @@ footer{
         padding: 10px;
     }
     ul{
-        text-decoration: none;
         list-style: none;
         display: flex;
         justify-content: space-around;
