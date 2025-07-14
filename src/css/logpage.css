@@ -10,7 +10,7 @@ body {
     margin: 0;
 }
 header {
-    background-color: aqua;
+    background-color: #86c6ea;
     margin: 0;
     padding: 0;
     display: flex;
@@ -89,7 +89,7 @@ header {
 }
 footer{
     padding: 10px 0px;
-    margin: 10px 0px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
