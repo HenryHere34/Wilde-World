@@ -1,3 +1,11 @@
+* {
+    font-family: "Spectral", serif;
+    font-style: normal;
+    font-weight: normal;
+    .bold {
+        font-weight: bold;
+    }
+}
 body {
     margin: 0;
 }
@@ -6,7 +14,7 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
-    padding-left: 5%;
+    padding-left: 15%;
 }
 #loginbox {
     display: block;
@@ -14,6 +22,10 @@ header {
     margin: 5%;
     padding: 2%;
     margin-bottom: 0.5%;
+    border-width: 1.5px;
+    border-radius: 17px;
+    border-color: rgb(23, 23, 23);
+    border-style: solid;
     #box {
         display: grid;
         grid-template-columns: 43% 1fr;
@@ -22,6 +34,9 @@ header {
             display: grid;
             grid-template-rows: 12% 70%;
             margin: 2%;
+            button {
+                color: black !important;
+            }
             figure {
                 margin: 0;
             }
@@ -39,10 +54,14 @@ header {
                 button {
                     height: 45px;
                     width: 70%;
+                    background-color: #92A4FF;
+                    color: white;
+                    font-size: 18px;
+                    border-radius: 15px;
+                }
             }
         }
     }
-}
 }
 .loginfill {
     form {
@@ -66,5 +85,77 @@ header {
             color: white;
             font-size: 18px;
         }
+    }
+}
+footer{
+    padding: 10px 0px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #aac8db;
+    .footer_icon{
+        width: 35px;
+    }
+    h2{
+        font-weight: bold;
+    }
+    h3{
+        font-style: italic;
+    }
+    a{
+        font-style: italic;
+        text-decoration: none;
+        color: black;
+    }
+    section{
+        margin: 10px 40px;
+        padding: 10px;
+    }
+    ul{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10px;
+        width: 100%;
+        padding: 0px;
+        li{
+            margin: 10px;
+        }
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_line_x{
+        width: 100%;
+        padding: 1px;
+        margin: 10px;
+        background-color: black;
+    }
+    .footer_line_y{
+        padding: 110px 1px;
+        margin: 10px;
+        background-color: black;
+    }
+    #footer_social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #footer_info{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 50%;
+    }
+    #footer_title{
+        width: 250px;
     }
 }
