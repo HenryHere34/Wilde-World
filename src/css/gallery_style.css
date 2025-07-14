@@ -53,6 +53,73 @@ header{
     }
 
 }
+main{
+    #trip_gallery_title{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        #title_small{
+            font-weight: bold;
+            font-size: 30px;
+            margin: 0px;
+            padding: 0px;
+        }
+        #title_big{
+            font-weight: bold;
+            font-size: 50px;
+            margin: 0px;
+            margin-top: -15px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        #trip_gallery_line{
+            width: 33%;
+            padding: 1px;
+            margin: 10px;
+            background-color: black;
+        }
+    }
+
+    article.card {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-items: stretch;
+    gap: 30px;
+        section.elem-card {
+            border-radius: 14px;
+            display: grid;
+            grid-template-columns: 37.5% 1fr;
+            background-color: #D9D9D9;
+            border-width: 2px;
+            border-color: rgb(37, 37, 37);
+            border-style: dashed;
+            img {
+                border-radius: 14px;
+                height: 100%;
+                width: 90%;
+                object-fit: cover;
+                align-self: flex-start;
+            }
+
+            .card_title{
+                font-weight: bold;
+            }
+            .card_text{
+                font-style: italic;
+            }
+        }
+        p.price {
+            font-size: 40px;
+            text-align: center;
+        }
+    }
+}
 footer{
     padding: 10px 0px;
     margin: 10px 0px;
